@@ -1,0 +1,20 @@
+# APIキーや個人情報を含むファイルは絶対にコミットしない
+*.env
+.env.*
+secrets.*
+credentials.*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# エディタ設定
+.vscode/
+.idea/
+
+# ローカルメモ
+memo.txt
+todo.txt
+*.log
